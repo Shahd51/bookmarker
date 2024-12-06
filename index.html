@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="shortcut icon" href="./images/favicon.ico" type="images/x-icon">--->
+    <title>BookMark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Righteous&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <div class="contanier d-flex flex-column justify-content-center ">
+        <h1 class="mt-5 text-center position-relative">BookMarker</h1>
+       
+
+        <h2 class="text-center"><i class="fa-solid "></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h2>
+            
+      <div class="site-Name d-flex flex-column justify-content-center px-5">
+        <label for="BookmarkName" class="pb-2 ">
+          <i class="fa-solid fa-bookmark "></i>
+          Site Name
+        </label>
+        <input type="text" class="form-control is-invalid" id="BookmarkName" placeholder="Bookmark Name">
+      </div>
+
+      <div class="URL-Name w-100 d-flex flex-column justify-content-center px-5">
+        <label for="BookmarkName" class="pb-2 ">
+          <i class="fa-solid fa-link"></i>
+          Site URL
+        </label>
+        <input type="text" class="form-control is-invalid" id="BookmarkURL" placeholder="Website URL">
+      </div>
+            <div class="text-center">
+              <button onclick="addBookmark()" class="text-white px-4 mt-3" type="submit">Submit</button>
+            </div>
+        
+            <table id="bookmarkstable" class ="table mt-4 ">
+              <thead>
+                <tr>
+                  <th scope="col">Index</th>
+                  <th scope="col">Website Name</th>
+                  <th scope="col">Visit</th>
+                  <th scope="col">Delete</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

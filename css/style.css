@@ -1,0 +1,36 @@
+body{
+    background-color: #F7ECDE;
+}
+
+h1{
+    font-family: "Pacifico";
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+
+h2{
+    font-family: "Righteous";
+    font-size: 25px;
+    font-weight: 500;
+    color: #96AA4D;
+}  
+
+
+
+
+form label, table{
+    font-size: 16px;
+    font-weight: 600;
+    font-family:  "PT Sans";
+}
+
+button{
+   background-color: #BB4120; 
+   border-color:transparent;
+}
+
+table{
+    font-weight: 700;
+}
